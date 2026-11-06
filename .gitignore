@@ -1,0 +1,26 @@
+# OS and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*~
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+yarn-error.log*
+.cache/
+tmp/
+temp/
+
+# Environment secrets
+.env
+.env.*
+
+# Dependencies and build output (not needed for this static project yet)
+node_modules/
+dist/
+build/
+coverage/
